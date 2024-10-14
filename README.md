@@ -27,7 +27,8 @@ console.log(result);
 You can run the below example by saving it as `./examples/water-cloud.yml` and executing the following command from the project root:
 
 ```sh
-npm link water-cloud
+npm run build
+npm link if-water-cloud
 if-run --manifest ./examples/water-cloud.yml --output ./examples/outputs/water-cloud.yml
 ```
 
